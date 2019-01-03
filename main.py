@@ -15,7 +15,7 @@ with picamera.PiCamera() as camera:
         tmp = func.countObj()  
         
         if count != tmp and count != -1:
-            buzzier()
+            func.buzzier()
 
         count = tmp
 
