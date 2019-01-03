@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+/usr/bin/env python
 # -*- coding: utf-8 -*-
 import smtplib
 import os
@@ -12,8 +12,7 @@ import ConfigParser
 ROOT_NODE = -1
 
 def get_frame():
-    index = str(int(time()) % 2)
-    img = open("image/" + index + ".jpg", "rb").read()
+    img = open("image/0.jpg", "rb").read()
     return img
 
 
