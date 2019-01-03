@@ -12,7 +12,7 @@ import ConfigParser
 ROOT_NODE = -1
 
 def get_frame():
-    img = open("image/0.jpg", "rb").read()
+    img = open("image/1.jpg", "rb").read()
     return img
 
 def countObj():
