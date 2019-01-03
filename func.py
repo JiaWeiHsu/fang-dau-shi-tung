@@ -8,8 +8,23 @@ from time import time
 import cv2
 import numpy as np
 import ConfigParser
+import time
+import RPi.GPIO as GPIO
+
 
 ROOT_NODE = -1
+
+def buzzier():
+    GPIO.setmode(GPIO.BOARD)
+    GPIO.setup(12, GPIO.OUT)
+    p = GPIO.PWM(12, 50)
+    p.start(50)
+   
+    p.ChangeFrequency(659)
+    time.sleep(1)
+
+    p.stop()
+    GPIO.cleanup()
 
 def get_frame():
     img = open("image/1.jpg", "rb").read()

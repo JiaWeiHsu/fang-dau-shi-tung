@@ -14,8 +14,8 @@ with picamera.PiCamera() as camera:
 
         tmp = func.countObj()  
         
-        # if count != tmp and count != -1:
-        #     func.sendEmail('image/0.jpg', 'bryan35818363680919@gmail.com')
+        if count != tmp and count != -1:
+            buzzier()
 
         count = tmp
 
