@@ -12,7 +12,7 @@ with picamera.PiCamera() as camera:
             'image/0.jpg',
             ], use_video_port=True)
 
-        tmp = func.countObj('image/0.jpg')  
+        tmp = func.countObj()  
         
         # if count != tmp and count != -1:
         #     func.sendEmail('image/0.jpg', 'bryan35818363680919@gmail.com')
