@@ -48,13 +48,10 @@ def sendEmail(img, to_addr):
     smtp.quit()
 
 
-
-
-
 def countObj(imgName):
 
     if os.stat('image/0.jpg').st_size > 0:
-        
+
         fidelity = False
         fidelityValue = .7
         img = cv2.imread(imgName)
@@ -90,4 +87,9 @@ def countObj(imgName):
         # cv2.imshow('image',imgCopy)
         # cv2.waitKey(0)
         print totalContours
-        return(totalContours)
+        return totalContours
+
+    else:
+        print(-1)
+        return -1
+
