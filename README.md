@@ -14,10 +14,13 @@
 * 偵測場景改變
 * 計算物件數量
 * 提供即時串流
-* 寄送E-mail通知
 * 物件數量改變時蜂鳴器發出聲音
 
 <h2 id = "mat"> 材料 </h2>
+<table><th>名稱</th><th>數量</th><th>來源</th>
+  <tr><td>Pi camera</td><td>1</td><td>Moli</td></tr>
+  <tr><td>蜂鳴器</td><td>1</td><td>Moli</td></tr>
+  <tr><td>樹莓派</td><td>1</td><td>Molie</td></tr>
 
 <h2 id ="ref"> 參考資料 </h2>
 
