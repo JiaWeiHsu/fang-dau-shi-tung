@@ -20,7 +20,7 @@
 <table><th>名稱</th><th>數量</th><th>來源</th>
   <tr><td>Pi camera</td><td>1</td><td>Moli</td></tr>
   <tr><td>蜂鳴器</td><td>1</td><td>Moli</td></tr>
-  <tr><td>樹莓派</td><td>1</td><td>Molie</td></tr>
+  <tr><td>樹莓派</td><td>1</td><td>Molie</td></tr></table>
 
 <h2 id ="ref"> 參考資料 </h2>
 
