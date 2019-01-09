@@ -10,6 +10,8 @@ import numpy as np
 import ConfigParser
 import time
 import RPi.GPIO as GPIO
+import time
+import picamera
 
 
 ROOT_NODE = -1
@@ -73,7 +75,26 @@ def countObj():
         return totalContours
 
     else:
-        print(-1)
         return -1
 
+
+def takePicture():
+    count = -1
+    with picamera.PiCamera() as camera:
+        camera.start_preview()
+        time.sleep(2)
+        while True:
+
+            camera.capture_sequence([
+                'image/0.jpg',
+                ], use_video_port=True)
+
+            tmp = countObj()  
+            
+            if count != tmp and count != -1:
+                buzzier()
+
+            count = tmp
+
+        camera.stop_preview()
 
