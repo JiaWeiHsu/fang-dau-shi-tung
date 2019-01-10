@@ -21,20 +21,10 @@ def gen():
         yield (b'--frame\r\n'
                b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n')
 
-
 @app.route('/video_feed')
 def video_feed():
     return Response(gen(),
                     mimetype='multipart/x-mixed-replace; boundary=frame')
 
-# def job():
-#     while True:
-#         time.sleep(1)
-#         print("print")
-
 if __name__ == '__main__':
-    try:
-        # Thread(target = func.takePicture).start() 
-        Thread(target = app.run(host='0.0.0.0', port=5000, debug=True, threaded=True)).start()
-    except:
-        print "over!"
+    app.run(host='0.0.0.0', port=5000, debug=True, threaded=True)
