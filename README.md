@@ -30,7 +30,7 @@
 <img src="https://github.com/JiaWeiHsu/fang-dau-shi-tung/blob/master/image/%E8%A3%9D%E7%BD%AE.jpg">
 
 <h2 id = "comm"> 指令 </h2>
-  python app.py & python main.py
+<pre><code>python app.py & python main.py</code><
 
 <h2 id = "res"> 執行結果 </h2>
 <img src="https://github.com/JiaWeiHsu/fang-dau-shi-tung/blob/master/image/img.png">
