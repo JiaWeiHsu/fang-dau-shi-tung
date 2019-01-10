@@ -26,7 +26,7 @@
   <tr><td>Camera Mount</td><td>1</td><td>Moli 3D列印機</td></tr></table>
 
 <h2 id = "dev"> 裝置 </h2>
-<img src="https://github.com/JiaWeiHsu/fang-dau-shi-tung/blob/master/image/%E8%A3%9D%E7%BD%AE.jpg"  height="200" width="200">
+<img src="https://github.com/JiaWeiHsu/fang-dau-shi-tung/blob/master/image/%E8%A3%9D%E7%BD%AE.jpg"  height="320" width="569">
 
 <h2 id = "res"> 執行結果 </h2>
 <img src="https://github.com/JiaWeiHsu/fang-dau-shi-tung/blob/master/image/img.png">
