@@ -4,6 +4,8 @@
 * [功能](#func)
 * [材料](#mat)
 * [參考資料](#ref)
+* [裝置](#dev)
+* [執行結果](#res)
 
 <h2 id = "intro"> 簡介 </h2>
 
@@ -22,6 +24,12 @@
   <tr><td>蜂鳴器</td><td>1</td><td>Moli</td></tr>
   <tr><td>樹莓派</td><td>1</td><td>Moli</td></tr>
   <tr><td>Camera Mount</td><td>1</td><td>Moli 3D列印機</td></tr></table>
+
+<h2 id = "dev"> 裝置 </h2>
+![image](https://github.com/JiaWeiHsu/fang-dau-shi-tung/blob/master/image/%E8%A3%9D%E7%BD%AE.jpg?raw=true)
+
+<h2 id = "res"> 執行結果 </h2>
+![image](https://github.com/JiaWeiHsu/fang-dau-shi-tung/blob/master/image/img.png?raw=true)
 
 <h2 id ="ref"> 參考資料 </h2>
 
