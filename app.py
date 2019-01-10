@@ -34,7 +34,7 @@ def video_feed():
 
 if __name__ == '__main__':
     try:
-        Thread(target = func.takePicture).start() 
+        # Thread(target = func.takePicture).start() 
         Thread(target = app.run(host='0.0.0.0', port=5000, debug=True, threaded=True)).start()
     except:
         print "over!"
