@@ -4,7 +4,7 @@ from threading import Thread
 # Raspberry Pi camera module (requires picamera package)
 #from camera_pi import Camera
 
-# import func
+import func
 import time
 
 app = Flask(__name__)
@@ -27,11 +27,11 @@ def video_feed():
     return Response(gen(),
                     mimetype='multipart/x-mixed-replace; boundary=frame')
 
-def job():
-    while True:
-        time.sleep(1)
-        print("print")
+# def job():
+#     while True:
+#         time.sleep(1)
+#         print("print")
 
 if __name__ == '__main__':
-    Thread(target = job).start() 
+    Thread(target = func.takePicture).start() 
     Thread(target = app.run(host='0.0.0.0', port=5000, debug=True, threaded=True)).start()
