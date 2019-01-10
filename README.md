@@ -3,9 +3,10 @@
 * [簡介](#intro)
 * [功能](#func)
 * [材料](#mat)
-* [參考資料](#ref)
 * [裝置](#dev)
+* [指令](#comm)
 * [執行結果](#res)
+* [參考資料](#ref)
 
 <h2 id = "intro"> 簡介 </h2>
 
@@ -27,6 +28,9 @@
 
 <h2 id = "dev"> 裝置 </h2>
 <img src="https://github.com/JiaWeiHsu/fang-dau-shi-tung/blob/master/image/%E8%A3%9D%E7%BD%AE.jpg">
+
+<h2 id = "comm"> 指令 </h2>
+  python app.py & python main.py
 
 <h2 id = "res"> 執行結果 </h2>
 <img src="https://github.com/JiaWeiHsu/fang-dau-shi-tung/blob/master/image/img.png">
