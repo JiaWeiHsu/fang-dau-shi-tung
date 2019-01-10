@@ -26,10 +26,10 @@
   <tr><td>Camera Mount</td><td>1</td><td>Moli 3D列印機</td></tr></table>
 
 <h2 id = "dev"> 裝置 </h2>
-![image](image/裝置.jpg)
+* ![image](image/裝置.jpg)
 
 <h2 id = "res"> 執行結果 </h2>
-![image1](/image/img.png)
+* ![image](https://github.com/JiaWeiHsu/fang-dau-shi-tung/blob/master/image/img.png)
 
 <h2 id ="ref"> 參考資料 </h2>
 
