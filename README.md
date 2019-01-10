@@ -29,7 +29,7 @@
 * ![image](image/裝置.jpg)
 
 <h2 id = "res"> 執行結果 </h2>
-![](https://github.com/JiaWeiHsu/fang-dau-shi-tung/blob/master/image/img.png)
+<img src="https://github.com/JiaWeiHsu/fang-dau-shi-tung/blob/master/image/img.png">
 
 <h2 id ="ref"> 參考資料 </h2>
 
