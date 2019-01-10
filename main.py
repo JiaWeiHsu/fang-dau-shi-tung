@@ -5,6 +5,7 @@ import func
 count = -1
 with picamera.PiCamera() as camera:
     camera.start_preview()
+    camera.rotation = 90
     time.sleep(2)
     while True:
 
